@@ -1,0 +1,16 @@
+# build output
+/build/
+/cmake-build-*/
+.cache/
+compile_commands.json
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Blender
+*.blend1
+*.blend2
+__pycache__/

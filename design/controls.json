@@ -1,0 +1,2167 @@
+{
+ "units": "mm",
+ "origin": "top surface centre, +X right, +Y back",
+ "body": {
+  "w": 1000.0,
+  "top": 280.0,
+  "bottom": -284.0
+ },
+ "controls": [
+  {
+   "id": "SCREEN",
+   "type": "screen",
+   "x": 0.0,
+   "y": 204.0,
+   "group": "screen",
+   "label": "",
+   "w": 960.0,
+   "h": 104.0,
+   "px": [
+    3840,
+    416
+   ]
+  },
+  {
+   "id": "SOURCE",
+   "type": "button_rect",
+   "x": -125,
+   "y": 128.0,
+   "group": "nav",
+   "label": "SOURCE",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "BROWSE",
+   "type": "button_rect",
+   "x": -75,
+   "y": 128.0,
+   "group": "nav",
+   "label": "BROWSE",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "TAG_LIST",
+   "type": "button_rect",
+   "x": -25,
+   "y": 128.0,
+   "group": "nav",
+   "label": "TAG LIST",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "PLAYLIST",
+   "type": "button_rect",
+   "x": 25,
+   "y": 128.0,
+   "group": "nav",
+   "label": "PLAYLIST",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SEARCH",
+   "type": "button_rect",
+   "x": 75,
+   "y": 128.0,
+   "group": "nav",
+   "label": "SEARCH",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "MENU",
+   "type": "button_rect",
+   "x": 125,
+   "y": 128.0,
+   "group": "nav",
+   "label": "MENU",
+   "w": 22,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "LOAD_3",
+   "type": "button_rect",
+   "x": -205,
+   "y": 128.0,
+   "group": "nav",
+   "label": "LOAD 3",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "LOAD_1",
+   "type": "button_rect",
+   "x": -180,
+   "y": 128.0,
+   "group": "nav",
+   "label": "LOAD 1",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "LOAD_2",
+   "type": "button_rect",
+   "x": 180,
+   "y": 128.0,
+   "group": "nav",
+   "label": "LOAD 2",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "LOAD_4",
+   "type": "button_rect",
+   "x": 205,
+   "y": 128.0,
+   "group": "nav",
+   "label": "LOAD 4",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "BACK",
+   "type": "button_rect",
+   "x": 250,
+   "y": 128.0,
+   "group": "nav",
+   "label": "BACK",
+   "w": 18,
+   "h": 9
+  },
+  {
+   "id": "BROWSE_ENCODER",
+   "type": "encoder",
+   "x": 285,
+   "y": 128.0,
+   "group": "nav",
+   "label": "",
+   "d": 20,
+   "push": true
+  },
+  {
+   "id": "TAG_TRACK",
+   "type": "button_rect",
+   "x": 320,
+   "y": 128.0,
+   "group": "nav",
+   "label": "TAG TRACK",
+   "w": 18,
+   "h": 9
+  },
+  {
+   "id": "SHORTCUT",
+   "type": "button_rect",
+   "x": 350,
+   "y": 128.0,
+   "group": "nav",
+   "label": "SHORTCUT",
+   "w": 18,
+   "h": 9
+  },
+  {
+   "id": "USB1",
+   "type": "usb_port",
+   "x": 405,
+   "y": 128.0,
+   "group": "nav",
+   "label": "USB 1",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "USB1_STOP",
+   "type": "button_round",
+   "x": 428,
+   "y": 128.0,
+   "group": "nav",
+   "label": "STOP",
+   "d": 8,
+   "led": "red"
+  },
+  {
+   "id": "USB2",
+   "type": "usb_port",
+   "x": 458,
+   "y": 128.0,
+   "group": "nav",
+   "label": "USB 2",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "USB2_STOP",
+   "type": "button_round",
+   "x": 481,
+   "y": 128.0,
+   "group": "nav",
+   "label": "STOP",
+   "d": 8,
+   "led": "red"
+  },
+  {
+   "id": "D1_IN_CUE",
+   "type": "button_round",
+   "x": -479.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "IN/CUE",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D1_OUT",
+   "type": "button_round",
+   "x": -451.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "OUT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D1_RELOOP_EXIT",
+   "type": "button_round",
+   "x": -419.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "RELOOP/EXIT",
+   "d": 9.0,
+   "led": "orange"
+  },
+  {
+   "id": "D1_DECK_SELECT_A",
+   "type": "button_rect",
+   "x": -356.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "3",
+   "w": 22,
+   "h": 12,
+   "led": "blue"
+  },
+  {
+   "id": "D1_DECK_SELECT_B",
+   "type": "button_rect",
+   "x": -328.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "1",
+   "w": 22,
+   "h": 12,
+   "led": "blue"
+  },
+  {
+   "id": "D1_CUE_LOOP_CALL_PREV",
+   "type": "button_round",
+   "x": -268.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "CALL ◀",
+   "d": 9.0
+  },
+  {
+   "id": "D1_CUE_LOOP_CALL_NEXT",
+   "type": "button_round",
+   "x": -246.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "CALL ▶",
+   "d": 9.0
+  },
+  {
+   "id": "D1_DELETE",
+   "type": "button_round",
+   "x": -221.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "DELETE",
+   "d": 9.0
+  },
+  {
+   "id": "D1_MEMORY",
+   "type": "button_round",
+   "x": -199.0,
+   "y": 84.0,
+   "group": "deck_1",
+   "label": "MEMORY",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D1_BEAT_LOOP_4",
+   "type": "button_round",
+   "x": -477.0,
+   "y": 56.0,
+   "group": "deck_1",
+   "label": "4 BEAT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D1_BEAT_LOOP_8",
+   "type": "button_round",
+   "x": -451.0,
+   "y": 56.0,
+   "group": "deck_1",
+   "label": "8 BEAT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D1_BEAT_JUMP_BACK",
+   "type": "button_rect",
+   "x": -479.0,
+   "y": 27.0,
+   "group": "deck_1",
+   "label": "◀",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "D1_BEAT_JUMP_FWD",
+   "type": "button_rect",
+   "x": -451.0,
+   "y": 27.0,
+   "group": "deck_1",
+   "label": "▶",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "D1_JOG_FEEL",
+   "type": "knob",
+   "x": -241.0,
+   "y": 41.0,
+   "group": "deck_1",
+   "label": "JOG FEEL",
+   "d": 11.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "D1_VINYL_SPEED_ADJUST",
+   "type": "knob",
+   "x": -201.0,
+   "y": 56.0,
+   "group": "deck_1",
+   "label": "VINYL SPEED",
+   "d": 11.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "D1_JOG_MODE",
+   "type": "button_rect",
+   "x": -201.0,
+   "y": 27.0,
+   "group": "deck_1",
+   "label": "JOG MODE",
+   "w": 16,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D1_SLIP",
+   "type": "button_round",
+   "x": -479.0,
+   "y": -8.0,
+   "group": "deck_1",
+   "label": "SLIP",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D1_REVERSE",
+   "type": "button_rect",
+   "x": -479.0,
+   "y": -53.0,
+   "group": "deck_1",
+   "label": "REV",
+   "w": 16,
+   "h": 8,
+   "led": "red"
+  },
+  {
+   "id": "D1_SHIFT",
+   "type": "button_rect",
+   "x": -467.0,
+   "y": -106.0,
+   "group": "deck_1",
+   "label": "SHIFT",
+   "w": 18,
+   "h": 10
+  },
+  {
+   "id": "D1_TRACK_SEARCH_BACK",
+   "type": "button_rect",
+   "x": -475.0,
+   "y": -138.0,
+   "group": "deck_1",
+   "label": "|◀◀",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D1_TRACK_SEARCH_FWD",
+   "type": "button_rect",
+   "x": -453.0,
+   "y": -138.0,
+   "group": "deck_1",
+   "label": "▶▶|",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D1_SEARCH_BACK",
+   "type": "button_rect",
+   "x": -475.0,
+   "y": -164.0,
+   "group": "deck_1",
+   "label": "◀◀",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D1_SEARCH_FWD",
+   "type": "button_rect",
+   "x": -453.0,
+   "y": -164.0,
+   "group": "deck_1",
+   "label": "▶▶",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D1_CUE",
+   "type": "button_big",
+   "x": -464.0,
+   "y": -204.0,
+   "group": "deck_1",
+   "label": "CUE",
+   "d": 38,
+   "led": "orange"
+  },
+  {
+   "id": "D1_PLAY_PAUSE",
+   "type": "button_big",
+   "x": -464.0,
+   "y": -253.0,
+   "group": "deck_1",
+   "label": "PLAY/PAUSE",
+   "d": 38,
+   "led": "green"
+  },
+  {
+   "id": "D1_JOG",
+   "type": "jog",
+   "x": -334.0,
+   "y": -55.0,
+   "group": "deck_1",
+   "label": "",
+   "d": 226,
+   "platter_d": 200,
+   "display_d": 56
+  },
+  {
+   "id": "D1_BEAT_SYNC",
+   "type": "button_rect",
+   "x": -210.0,
+   "y": -1.0,
+   "group": "deck_1",
+   "label": "BEAT SYNC",
+   "w": 16,
+   "h": 10,
+   "led": "orange"
+  },
+  {
+   "id": "D1_MASTER",
+   "type": "button_rect",
+   "x": -188.0,
+   "y": -1.0,
+   "group": "deck_1",
+   "label": "MASTER",
+   "w": 16,
+   "h": 10,
+   "led": "orange"
+  },
+  {
+   "id": "D1_KEY_SYNC",
+   "type": "button_rect",
+   "x": -199.0,
+   "y": -23.0,
+   "group": "deck_1",
+   "label": "KEY SYNC",
+   "w": 32,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D1_TEMPO_RANGE",
+   "type": "button_round",
+   "x": -201.0,
+   "y": -78.0,
+   "group": "deck_1",
+   "label": "TEMPO ±6/10/16/WIDE",
+   "d": 9.0
+  },
+  {
+   "id": "D1_MASTER_TEMPO",
+   "type": "button_round",
+   "x": -201.0,
+   "y": -114.0,
+   "group": "deck_1",
+   "label": "MASTER TEMPO",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D1_TEMPO_RESET",
+   "type": "button_round",
+   "x": -237.0,
+   "y": -199.0,
+   "group": "deck_1",
+   "label": "TEMPO RESET",
+   "d": 9.0,
+   "led": "green"
+  },
+  {
+   "id": "D1_TEMPO",
+   "type": "fader",
+   "x": -201.0,
+   "y": -186.0,
+   "group": "deck_1",
+   "label": "TEMPO",
+   "length": 103,
+   "travel": 92,
+   "axis": "y",
+   "cap": [
+    18,
+    10
+   ]
+  },
+  {
+   "id": "D1_PAD_MODE_1",
+   "type": "button_rect",
+   "x": -383.0,
+   "y": -188.0,
+   "group": "deck_1",
+   "label": "HOT CUE",
+   "w": 30,
+   "h": 8,
+   "led": "white"
+  },
+  {
+   "id": "D1_PAD_MODE_2",
+   "type": "button_rect",
+   "x": -350.0,
+   "y": -188.0,
+   "group": "deck_1",
+   "label": "BEAT LOOP",
+   "w": 30,
+   "h": 8,
+   "led": "orange"
+  },
+  {
+   "id": "D1_PAD_MODE_3",
+   "type": "button_rect",
+   "x": -317.0,
+   "y": -188.0,
+   "group": "deck_1",
+   "label": "SLIP LOOP",
+   "w": 30,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D1_PAD_MODE_4",
+   "type": "button_rect",
+   "x": -284.0,
+   "y": -188.0,
+   "group": "deck_1",
+   "label": "BEAT JUMP",
+   "w": 30,
+   "h": 8,
+   "led": "red"
+  },
+  {
+   "id": "D1_PAD_1",
+   "type": "pad",
+   "x": -383.0,
+   "y": -217.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_2",
+   "type": "pad",
+   "x": -350.0,
+   "y": -217.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_3",
+   "type": "pad",
+   "x": -317.0,
+   "y": -217.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_4",
+   "type": "pad",
+   "x": -284.0,
+   "y": -217.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_5",
+   "type": "pad",
+   "x": -383.0,
+   "y": -251.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_6",
+   "type": "pad",
+   "x": -350.0,
+   "y": -251.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_7",
+   "type": "pad",
+   "x": -317.0,
+   "y": -251.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D1_PAD_8",
+   "type": "pad",
+   "x": -284.0,
+   "y": -251.0,
+   "group": "deck_1",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "MIC1_ON",
+   "type": "button_round",
+   "x": -158,
+   "y": 92.0,
+   "group": "mixer",
+   "label": "MIC 1",
+   "d": 9.0,
+   "led": "blue"
+  },
+  {
+   "id": "MIC1_LEVEL",
+   "type": "knob",
+   "x": -136,
+   "y": 92.0,
+   "group": "mixer",
+   "label": "LEVEL",
+   "d": 13,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "MIC1_LOW",
+   "type": "knob",
+   "x": -114,
+   "y": 92.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "MIC1_MID",
+   "type": "knob",
+   "x": -92,
+   "y": 92.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "MIC1_HI",
+   "type": "knob",
+   "x": -70,
+   "y": 92.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "MIC2_ON",
+   "type": "button_round",
+   "x": -158,
+   "y": 66.0,
+   "group": "mixer",
+   "label": "MIC 2",
+   "d": 9.0,
+   "led": "blue"
+  },
+  {
+   "id": "MIC2_LEVEL",
+   "type": "knob",
+   "x": -136,
+   "y": 66.0,
+   "group": "mixer",
+   "label": "LEVEL",
+   "d": 13,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "MIC2_LOW",
+   "type": "knob",
+   "x": -114,
+   "y": 66.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "MIC2_MID",
+   "type": "knob",
+   "x": -92,
+   "y": 66.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "MIC2_HI",
+   "type": "knob",
+   "x": -70,
+   "y": 66.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 13,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "TALK_OVER",
+   "type": "button_round",
+   "x": -44,
+   "y": 79.0,
+   "group": "mixer",
+   "label": "TALK OVER",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "MASTER_LEVEL",
+   "type": "knob",
+   "x": 20,
+   "y": 90.0,
+   "group": "mixer",
+   "label": "MASTER",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "MASTER_CUE",
+   "type": "button_rect",
+   "x": 20,
+   "y": 64.0,
+   "group": "mixer",
+   "label": "CUE",
+   "w": 16,
+   "h": 9,
+   "led": "orange"
+  },
+  {
+   "id": "MASTER_METER",
+   "type": "meter",
+   "x": 91,
+   "y": 91.0,
+   "group": "mixer",
+   "label": "",
+   "length": 54,
+   "axis": "x",
+   "channels": 2,
+   "segments": 15
+  },
+  {
+   "id": "BOOTH_LEVEL",
+   "type": "knob",
+   "x": 148,
+   "y": 90.0,
+   "group": "mixer",
+   "label": "BOOTH",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "QUANTIZE",
+   "type": "button_round",
+   "x": 148,
+   "y": 64.0,
+   "group": "mixer",
+   "label": "QUANTIZE",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "MIXER_SETTINGS",
+   "type": "button_rect",
+   "x": -141,
+   "y": 25.0,
+   "group": "mixer",
+   "label": "SETTINGS",
+   "w": 14,
+   "h": 9
+  },
+  {
+   "id": "SCFX_SPACE",
+   "type": "button_rect",
+   "x": -152,
+   "y": -30.0,
+   "group": "mixer",
+   "label": "SPACE",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_DUB_ECHO",
+   "type": "button_rect",
+   "x": -130,
+   "y": -30.0,
+   "group": "mixer",
+   "label": "DUB ECHO",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_CRUSH",
+   "type": "button_rect",
+   "x": -152,
+   "y": -52.0,
+   "group": "mixer",
+   "label": "CRUSH",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_SWEEP",
+   "type": "button_rect",
+   "x": -130,
+   "y": -52.0,
+   "group": "mixer",
+   "label": "SWEEP",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_NOISE",
+   "type": "button_rect",
+   "x": -152,
+   "y": -74.0,
+   "group": "mixer",
+   "label": "NOISE",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_FILTER",
+   "type": "button_rect",
+   "x": -130,
+   "y": -74.0,
+   "group": "mixer",
+   "label": "FILTER",
+   "w": 18,
+   "h": 9,
+   "led": "blue"
+  },
+  {
+   "id": "SCFX_PARAMETER",
+   "type": "knob",
+   "x": -141,
+   "y": -104.0,
+   "group": "mixer",
+   "label": "PARAMETER",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "HP_LINK_CUE",
+   "type": "button_rect",
+   "x": -141,
+   "y": -138.0,
+   "group": "mixer",
+   "label": "LINK CUE",
+   "w": 14,
+   "h": 8,
+   "led": "orange"
+  },
+  {
+   "id": "HP_MIX",
+   "type": "knob",
+   "x": -141,
+   "y": -168.0,
+   "group": "mixer",
+   "label": "MIX",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "HP_LEVEL",
+   "type": "knob",
+   "x": -141,
+   "y": -208.0,
+   "group": "mixer",
+   "label": "LEVEL",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "CH3_TRIM",
+   "type": "knob",
+   "x": -97.5,
+   "y": 37.0,
+   "group": "mixer",
+   "label": "TRIM",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH3_EQ_HI",
+   "type": "knob",
+   "x": -97.5,
+   "y": 3.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH3_EQ_MID",
+   "type": "knob",
+   "x": -97.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH3_EQ_LOW",
+   "type": "knob",
+   "x": -97.5,
+   "y": -66.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH3_COLOR",
+   "type": "knob",
+   "x": -97.5,
+   "y": -104.0,
+   "group": "mixer",
+   "label": "COLOR",
+   "d": 20.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH3_CUE",
+   "type": "button_rect",
+   "x": -97.5,
+   "y": -132.0,
+   "group": "mixer",
+   "label": "CUE",
+   "w": 16,
+   "h": 9,
+   "led": "orange"
+  },
+  {
+   "id": "CH3_METER",
+   "type": "meter",
+   "x": -114.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "",
+   "length": 104,
+   "axis": "y",
+   "channels": 1,
+   "segments": 15
+  },
+  {
+   "id": "CH3_FADER",
+   "type": "fader",
+   "x": -97.5,
+   "y": -202.0,
+   "group": "mixer",
+   "label": "3",
+   "length": 72,
+   "travel": 60,
+   "axis": "y",
+   "cap": [
+    10,
+    18
+   ]
+  },
+  {
+   "id": "CH1_TRIM",
+   "type": "knob",
+   "x": -50.5,
+   "y": 37.0,
+   "group": "mixer",
+   "label": "TRIM",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH1_EQ_HI",
+   "type": "knob",
+   "x": -50.5,
+   "y": 3.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH1_EQ_MID",
+   "type": "knob",
+   "x": -50.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH1_EQ_LOW",
+   "type": "knob",
+   "x": -50.5,
+   "y": -66.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH1_COLOR",
+   "type": "knob",
+   "x": -50.5,
+   "y": -104.0,
+   "group": "mixer",
+   "label": "COLOR",
+   "d": 20.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH1_CUE",
+   "type": "button_rect",
+   "x": -50.5,
+   "y": -132.0,
+   "group": "mixer",
+   "label": "CUE",
+   "w": 16,
+   "h": 9,
+   "led": "orange"
+  },
+  {
+   "id": "CH1_METER",
+   "type": "meter",
+   "x": -67.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "",
+   "length": 104,
+   "axis": "y",
+   "channels": 1,
+   "segments": 15
+  },
+  {
+   "id": "CH1_FADER",
+   "type": "fader",
+   "x": -50.5,
+   "y": -202.0,
+   "group": "mixer",
+   "label": "1",
+   "length": 72,
+   "travel": 60,
+   "axis": "y",
+   "cap": [
+    10,
+    18
+   ]
+  },
+  {
+   "id": "CH2_TRIM",
+   "type": "knob",
+   "x": -3.5,
+   "y": 37.0,
+   "group": "mixer",
+   "label": "TRIM",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH2_EQ_HI",
+   "type": "knob",
+   "x": -3.5,
+   "y": 3.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH2_EQ_MID",
+   "type": "knob",
+   "x": -3.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH2_EQ_LOW",
+   "type": "knob",
+   "x": -3.5,
+   "y": -66.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH2_COLOR",
+   "type": "knob",
+   "x": -3.5,
+   "y": -104.0,
+   "group": "mixer",
+   "label": "COLOR",
+   "d": 20.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH2_CUE",
+   "type": "button_rect",
+   "x": -3.5,
+   "y": -132.0,
+   "group": "mixer",
+   "label": "CUE",
+   "w": 16,
+   "h": 9,
+   "led": "orange"
+  },
+  {
+   "id": "CH2_METER",
+   "type": "meter",
+   "x": -20.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "",
+   "length": 104,
+   "axis": "y",
+   "channels": 1,
+   "segments": 15
+  },
+  {
+   "id": "CH2_FADER",
+   "type": "fader",
+   "x": -3.5,
+   "y": -202.0,
+   "group": "mixer",
+   "label": "2",
+   "length": 72,
+   "travel": 60,
+   "axis": "y",
+   "cap": [
+    10,
+    18
+   ]
+  },
+  {
+   "id": "CH4_TRIM",
+   "type": "knob",
+   "x": 43.5,
+   "y": 37.0,
+   "group": "mixer",
+   "label": "TRIM",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH4_EQ_HI",
+   "type": "knob",
+   "x": 43.5,
+   "y": 3.0,
+   "group": "mixer",
+   "label": "HI",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH4_EQ_MID",
+   "type": "knob",
+   "x": 43.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "MID",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH4_EQ_LOW",
+   "type": "knob",
+   "x": 43.5,
+   "y": -66.0,
+   "group": "mixer",
+   "label": "LOW",
+   "d": 15.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH4_COLOR",
+   "type": "knob",
+   "x": 43.5,
+   "y": -104.0,
+   "group": "mixer",
+   "label": "COLOR",
+   "d": 20.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "CH4_CUE",
+   "type": "button_rect",
+   "x": 43.5,
+   "y": -132.0,
+   "group": "mixer",
+   "label": "CUE",
+   "w": 16,
+   "h": 9,
+   "led": "orange"
+  },
+  {
+   "id": "CH4_METER",
+   "type": "meter",
+   "x": 26.5,
+   "y": -32.0,
+   "group": "mixer",
+   "label": "",
+   "length": 104,
+   "axis": "y",
+   "channels": 1,
+   "segments": 15
+  },
+  {
+   "id": "CH4_FADER",
+   "type": "fader",
+   "x": 43.5,
+   "y": -202.0,
+   "group": "mixer",
+   "label": "4",
+   "length": 72,
+   "travel": 60,
+   "axis": "y",
+   "cap": [
+    10,
+    18
+   ]
+  },
+  {
+   "id": "CROSSFADER",
+   "type": "fader",
+   "x": -27,
+   "y": -256.0,
+   "group": "mixer",
+   "label": "A          B",
+   "length": 58,
+   "travel": 45,
+   "axis": "x",
+   "cap": [
+    10,
+    18
+   ]
+  },
+  {
+   "id": "BEAT_FX_XPAD",
+   "type": "xpad",
+   "x": 105,
+   "y": 25.0,
+   "group": "mixer",
+   "label": "X-PAD",
+   "w": 72,
+   "h": 10,
+   "segments": 8
+  },
+  {
+   "id": "BEAT_FX_BEAT_LEFT",
+   "type": "button_rect",
+   "x": 90,
+   "y": 0.0,
+   "group": "mixer",
+   "label": "◀ BEAT",
+   "w": 14,
+   "h": 8
+  },
+  {
+   "id": "BEAT_FX_BEAT_RIGHT",
+   "type": "button_rect",
+   "x": 120,
+   "y": 0.0,
+   "group": "mixer",
+   "label": "BEAT ▶",
+   "w": 14,
+   "h": 8
+  },
+  {
+   "id": "BEAT_FX_AUTO_TAP",
+   "type": "button_round",
+   "x": 82,
+   "y": -22.0,
+   "group": "mixer",
+   "label": "AUTO/TAP",
+   "d": 9.0
+  },
+  {
+   "id": "BEAT_FX_TAP",
+   "type": "button_round",
+   "x": 105,
+   "y": -22.0,
+   "group": "mixer",
+   "label": "TAP",
+   "d": 12,
+   "led": "green"
+  },
+  {
+   "id": "BEAT_FX_QUANTIZE",
+   "type": "button_round",
+   "x": 128,
+   "y": -22.0,
+   "group": "mixer",
+   "label": "FX QUANTIZE",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "BEAT_FX_FREQ_LOW",
+   "type": "button_rect",
+   "x": 84,
+   "y": -46.0,
+   "group": "mixer",
+   "label": "LOW",
+   "w": 16,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_FREQ_MID",
+   "type": "button_rect",
+   "x": 105,
+   "y": -46.0,
+   "group": "mixer",
+   "label": "MID",
+   "w": 16,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_FREQ_HI",
+   "type": "button_rect",
+   "x": 126,
+   "y": -46.0,
+   "group": "mixer",
+   "label": "HI",
+   "w": 16,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_SELECT",
+   "type": "knob",
+   "x": 105,
+   "y": -82.0,
+   "group": "mixer",
+   "label": "FX SELECT",
+   "d": 20.0,
+   "steps": 14
+  },
+  {
+   "id": "BEAT_FX_CH_1",
+   "type": "button_rect",
+   "x": 81,
+   "y": -120.0,
+   "group": "mixer",
+   "label": "1",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_2",
+   "type": "button_rect",
+   "x": 97,
+   "y": -120.0,
+   "group": "mixer",
+   "label": "2",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_3",
+   "type": "button_rect",
+   "x": 113,
+   "y": -120.0,
+   "group": "mixer",
+   "label": "3",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_4",
+   "type": "button_rect",
+   "x": 129,
+   "y": -120.0,
+   "group": "mixer",
+   "label": "4",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_MIC",
+   "type": "button_rect",
+   "x": 81,
+   "y": -136.0,
+   "group": "mixer",
+   "label": "MIC",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_CFA",
+   "type": "button_rect",
+   "x": 97,
+   "y": -136.0,
+   "group": "mixer",
+   "label": "CF.A",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_CFB",
+   "type": "button_rect",
+   "x": 113,
+   "y": -136.0,
+   "group": "mixer",
+   "label": "CF.B",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_CH_MST",
+   "type": "button_rect",
+   "x": 129,
+   "y": -136.0,
+   "group": "mixer",
+   "label": "MST",
+   "w": 14,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "BEAT_FX_TIME",
+   "type": "encoder",
+   "x": 105,
+   "y": -165.0,
+   "group": "mixer",
+   "label": "TIME",
+   "d": 16
+  },
+  {
+   "id": "BEAT_FX_LEVEL_DEPTH",
+   "type": "knob",
+   "x": 105,
+   "y": -205.0,
+   "group": "mixer",
+   "label": "LEVEL/DEPTH",
+   "d": 15.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "BEAT_FX_ON_OFF",
+   "type": "button_round",
+   "x": 105,
+   "y": -244.0,
+   "group": "mixer",
+   "label": "ON/OFF",
+   "d": 18,
+   "led": "blue"
+  },
+  {
+   "id": "D2_IN_CUE",
+   "type": "button_round",
+   "x": 191.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "IN/CUE",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D2_OUT",
+   "type": "button_round",
+   "x": 219.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "OUT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D2_RELOOP_EXIT",
+   "type": "button_round",
+   "x": 251.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "RELOOP/EXIT",
+   "d": 9.0,
+   "led": "orange"
+  },
+  {
+   "id": "D2_DECK_SELECT_A",
+   "type": "button_rect",
+   "x": 314.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "2",
+   "w": 22,
+   "h": 12,
+   "led": "blue"
+  },
+  {
+   "id": "D2_DECK_SELECT_B",
+   "type": "button_rect",
+   "x": 342.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "4",
+   "w": 22,
+   "h": 12,
+   "led": "blue"
+  },
+  {
+   "id": "D2_CUE_LOOP_CALL_PREV",
+   "type": "button_round",
+   "x": 402.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "CALL ◀",
+   "d": 9.0
+  },
+  {
+   "id": "D2_CUE_LOOP_CALL_NEXT",
+   "type": "button_round",
+   "x": 424.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "CALL ▶",
+   "d": 9.0
+  },
+  {
+   "id": "D2_DELETE",
+   "type": "button_round",
+   "x": 449.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "DELETE",
+   "d": 9.0
+  },
+  {
+   "id": "D2_MEMORY",
+   "type": "button_round",
+   "x": 471.0,
+   "y": 84.0,
+   "group": "deck_2",
+   "label": "MEMORY",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D2_BEAT_LOOP_4",
+   "type": "button_round",
+   "x": 193.0,
+   "y": 56.0,
+   "group": "deck_2",
+   "label": "4 BEAT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D2_BEAT_LOOP_8",
+   "type": "button_round",
+   "x": 219.0,
+   "y": 56.0,
+   "group": "deck_2",
+   "label": "8 BEAT",
+   "d": 12,
+   "led": "orange"
+  },
+  {
+   "id": "D2_BEAT_JUMP_BACK",
+   "type": "button_rect",
+   "x": 191.0,
+   "y": 27.0,
+   "group": "deck_2",
+   "label": "◀",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "D2_BEAT_JUMP_FWD",
+   "type": "button_rect",
+   "x": 219.0,
+   "y": 27.0,
+   "group": "deck_2",
+   "label": "▶",
+   "w": 16,
+   "h": 8
+  },
+  {
+   "id": "D2_JOG_FEEL",
+   "type": "knob",
+   "x": 429.0,
+   "y": 41.0,
+   "group": "deck_2",
+   "label": "JOG FEEL",
+   "d": 11.0,
+   "range": [
+    -1,
+    1
+   ],
+   "detent": true
+  },
+  {
+   "id": "D2_VINYL_SPEED_ADJUST",
+   "type": "knob",
+   "x": 469.0,
+   "y": 56.0,
+   "group": "deck_2",
+   "label": "VINYL SPEED",
+   "d": 11.0,
+   "range": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "D2_JOG_MODE",
+   "type": "button_rect",
+   "x": 469.0,
+   "y": 27.0,
+   "group": "deck_2",
+   "label": "JOG MODE",
+   "w": 16,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D2_SLIP",
+   "type": "button_round",
+   "x": 191.0,
+   "y": -8.0,
+   "group": "deck_2",
+   "label": "SLIP",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D2_REVERSE",
+   "type": "button_rect",
+   "x": 191.0,
+   "y": -53.0,
+   "group": "deck_2",
+   "label": "REV",
+   "w": 16,
+   "h": 8,
+   "led": "red"
+  },
+  {
+   "id": "D2_SHIFT",
+   "type": "button_rect",
+   "x": 203.0,
+   "y": -106.0,
+   "group": "deck_2",
+   "label": "SHIFT",
+   "w": 18,
+   "h": 10
+  },
+  {
+   "id": "D2_TRACK_SEARCH_BACK",
+   "type": "button_rect",
+   "x": 195.0,
+   "y": -138.0,
+   "group": "deck_2",
+   "label": "|◀◀",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D2_TRACK_SEARCH_FWD",
+   "type": "button_rect",
+   "x": 217.0,
+   "y": -138.0,
+   "group": "deck_2",
+   "label": "▶▶|",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D2_SEARCH_BACK",
+   "type": "button_rect",
+   "x": 195.0,
+   "y": -164.0,
+   "group": "deck_2",
+   "label": "◀◀",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D2_SEARCH_FWD",
+   "type": "button_rect",
+   "x": 217.0,
+   "y": -164.0,
+   "group": "deck_2",
+   "label": "▶▶",
+   "w": 18,
+   "h": 12
+  },
+  {
+   "id": "D2_CUE",
+   "type": "button_big",
+   "x": 206.0,
+   "y": -204.0,
+   "group": "deck_2",
+   "label": "CUE",
+   "d": 38,
+   "led": "orange"
+  },
+  {
+   "id": "D2_PLAY_PAUSE",
+   "type": "button_big",
+   "x": 206.0,
+   "y": -253.0,
+   "group": "deck_2",
+   "label": "PLAY/PAUSE",
+   "d": 38,
+   "led": "green"
+  },
+  {
+   "id": "D2_JOG",
+   "type": "jog",
+   "x": 336.0,
+   "y": -55.0,
+   "group": "deck_2",
+   "label": "",
+   "d": 226,
+   "platter_d": 200,
+   "display_d": 56
+  },
+  {
+   "id": "D2_BEAT_SYNC",
+   "type": "button_rect",
+   "x": 460.0,
+   "y": -1.0,
+   "group": "deck_2",
+   "label": "BEAT SYNC",
+   "w": 16,
+   "h": 10,
+   "led": "orange"
+  },
+  {
+   "id": "D2_MASTER",
+   "type": "button_rect",
+   "x": 482.0,
+   "y": -1.0,
+   "group": "deck_2",
+   "label": "MASTER",
+   "w": 16,
+   "h": 10,
+   "led": "orange"
+  },
+  {
+   "id": "D2_KEY_SYNC",
+   "type": "button_rect",
+   "x": 471.0,
+   "y": -23.0,
+   "group": "deck_2",
+   "label": "KEY SYNC",
+   "w": 32,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D2_TEMPO_RANGE",
+   "type": "button_round",
+   "x": 469.0,
+   "y": -78.0,
+   "group": "deck_2",
+   "label": "TEMPO ±6/10/16/WIDE",
+   "d": 9.0
+  },
+  {
+   "id": "D2_MASTER_TEMPO",
+   "type": "button_round",
+   "x": 469.0,
+   "y": -114.0,
+   "group": "deck_2",
+   "label": "MASTER TEMPO",
+   "d": 9.0,
+   "led": "red"
+  },
+  {
+   "id": "D2_TEMPO_RESET",
+   "type": "button_round",
+   "x": 433.0,
+   "y": -199.0,
+   "group": "deck_2",
+   "label": "TEMPO RESET",
+   "d": 9.0,
+   "led": "green"
+  },
+  {
+   "id": "D2_TEMPO",
+   "type": "fader",
+   "x": 469.0,
+   "y": -186.0,
+   "group": "deck_2",
+   "label": "TEMPO",
+   "length": 103,
+   "travel": 92,
+   "axis": "y",
+   "cap": [
+    18,
+    10
+   ]
+  },
+  {
+   "id": "D2_PAD_MODE_1",
+   "type": "button_rect",
+   "x": 287.0,
+   "y": -188.0,
+   "group": "deck_2",
+   "label": "HOT CUE",
+   "w": 30,
+   "h": 8,
+   "led": "white"
+  },
+  {
+   "id": "D2_PAD_MODE_2",
+   "type": "button_rect",
+   "x": 320.0,
+   "y": -188.0,
+   "group": "deck_2",
+   "label": "BEAT LOOP",
+   "w": 30,
+   "h": 8,
+   "led": "orange"
+  },
+  {
+   "id": "D2_PAD_MODE_3",
+   "type": "button_rect",
+   "x": 353.0,
+   "y": -188.0,
+   "group": "deck_2",
+   "label": "SLIP LOOP",
+   "w": 30,
+   "h": 8,
+   "led": "blue"
+  },
+  {
+   "id": "D2_PAD_MODE_4",
+   "type": "button_rect",
+   "x": 386.0,
+   "y": -188.0,
+   "group": "deck_2",
+   "label": "BEAT JUMP",
+   "w": 30,
+   "h": 8,
+   "led": "red"
+  },
+  {
+   "id": "D2_PAD_1",
+   "type": "pad",
+   "x": 287.0,
+   "y": -217.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_2",
+   "type": "pad",
+   "x": 320.0,
+   "y": -217.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_3",
+   "type": "pad",
+   "x": 353.0,
+   "y": -217.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_4",
+   "type": "pad",
+   "x": 386.0,
+   "y": -217.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_5",
+   "type": "pad",
+   "x": 287.0,
+   "y": -251.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_6",
+   "type": "pad",
+   "x": 320.0,
+   "y": -251.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_7",
+   "type": "pad",
+   "x": 353.0,
+   "y": -251.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  },
+  {
+   "id": "D2_PAD_8",
+   "type": "pad",
+   "x": 386.0,
+   "y": -251.0,
+   "group": "deck_2",
+   "label": "",
+   "w": 30,
+   "h": 30,
+   "led": "rgb"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# Close to JUCE's own style so engine and app code read like the framework.
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: c++20
+IndentWidth: 4
+ColumnLimit: 110
+BreakBeforeBraces: Allman
+SpaceBeforeParens: NonEmptyParentheses
+PointerAlignment: Left
+AccessModifierOffset: -4
+NamespaceIndentation: None
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+BreakConstructorInitializers: BeforeComma
+SortIncludes: CaseSensitive
+IncludeBlocks: Preserve
